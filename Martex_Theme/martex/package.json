@@ -1,0 +1,16 @@
+{
+  "name": "martex",
+  "version": "1.1.0",
+  "description": "Martex - Tailwind CSS Software, SaaS & Startup Template",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "elite-themes24",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}
